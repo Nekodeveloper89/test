@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background: #FFFFF5;
+    color: #000000;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: #000000;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    width: 500px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    gap: 67px;
+}
+
+.header__nav-link {
+    padding-top: 12px;
+}
+
+.header_button {
+    display: block;
+    width: 157px;
+    height: 26px;
+    border: 1px solid #000000;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 12px 22px;
+    background: transparent;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.hero__header {
+    margin-top: 189px;
+}
+
+.form__wrapper {
+    margin-top: 107px;
+}
+
+#hero_header-text {
+    font-size: 64px;
+    line-height: 80px;
+    max-width: 430px;
+    margin-bottom: 54px;
+}
+
+#hero_header-desc {
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 557px;
+}
+
+.form {
+    width: 400px;
+    height: 450px;
+    background: linear-gradient(54deg, rgba(7, 234, 249, 0.8) 2.32%, rgba(173, 0, 255, 0.8) 81.11%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+#form-header {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+
+.form-desc {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 38px;
+    margin-bottom: 13px;
+}
+
+.form_input {
+    width: 323px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+    outline: 0px;
+    margin-left: 38px;
+}
+
+.form_input::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: #6C6C6C;
+    font-family: 'Source Code Pro';
+    padding-left: 24px;
+}
+
+.form_input:focus {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#form_input-phone {
+    margin-bottom: 14px;
+}
+
+#form_input-task {
+    height: 122px;
+    margin-bottom: 24px;
+}
+
+.form_button {
+    display: block;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    width: 210px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_button:hover {
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 3px 7px rgba(255, 255, 255, 0.4);
+}
+
+.form_button:active, .form_button:focus {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+#advantages-header {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.advantages__content-wrapper {
+    margin-top: 75px;
+}
+
+.content_card {
+    display: flex;
+    justify-content: center;
+    gap: 17%;
+    margin-bottom: 118px;
+}
+
+.content-img {
+    width: 365px;
+    height: 306.36px;
+    border-radius: 25px;
+}
+
+.container-header {
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 347px;
+    margin-bottom: 50px;
+    margin-top: 37px;
+}
+
+.container-desc {
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 347px;
+}
+
+#contact-text {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.contact_container {
+    display: flex;
+    justify-content: center;
+    gap: 17%;
+}
+
+.contact_form-wrapper {
+    margin-top: 118px;
+}
+
+#scoial {
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 365px;
+    text-align: center;
+    margin-top: 158px;
+    margin-bottom: 43px;
+}
+
+.social-btn {
+    display: block;
+    width: 139px;
+    font-size: 26px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding: 13px 35px;
+    border-radius: 25px;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 43px;
+    margin-left: 76px;
+}
+
+#tg-btn {
+    background: #51C0FF;
+}
+
+#vk-btn {
+    background: #5A6BFF;
+}
+
+#wa-btn {
+    background: #56E95C;
+}
+
+.footer {
+    height: 80px;
+}
+
+.footer_copyright {
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 10%;
+    padding-top: 27px;
+}
+
+/*Adaptive*/
+
+@media screen and (max-width: 1270px) {
+    .header {
+        gap: 10%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .hero {
+        gap: 2%;
+    }
+    
+    #hero_header-text {
+        font-size: 57px;
+    }
+
+    #hero_header-desc {
+        font-size: 22px;
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header {
+        gap: 5%;
+    }
+
+    .contact_container {
+        gap: 5%;
+    }
+
+    .content_card {
+        gap: 8%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header {
+        display: inline;
+    }
+
+    .logo {
+        visibility: hidden;
+        margin: 0;
+        width: 0px;
+        height: 0px;
+    }
+
+    .navbar {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header_button {
+        visibility: hidden;
+        margin: 0;
+        width: 0px;
+        height: 0px;
+    }
+
+    .hero {
+        display: inline;
+    }
+
+    .hero__header {
+        margin-top: 0px;
+        display: block;
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hero_header-text {
+        margin-bottom: 30px;
+    }
+
+    .form__wrapper {
+        display: block;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    #advantages-header {
+        margin-top: 50px;
+    }
+
+    .advantages__content-wrapper {
+        margin-top: 50px;
+    }
+
+    .content_card {
+        display: inline;
+    }
+
+    .content-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content_container {
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-header {
+        margin-bottom: 28px;
+    }
+
+    .container-desc {
+        margin-bottom: 50px;
+    }
+
+    #contact-text {
+        font-size: 28px;
+    }
+
+    .contact_container {
+        display: inline;
+    }
+
+    .contact_form-wrapper {
+        display: block;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    .contact_social {
+        display: block;
+        width: 44%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #scoial {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .navbar {
+        display: block;
+        height: auto;
+        width: 30%;
+        border: none;
+        box-shadow: none;
+    }
+
+    .header__nav-link {
+        display: block;
+    }
+
+    #hero_header-text {
+        font-size: 42px;
+    }
+
+    .hero__header {
+        width: 53%;
+    }
+
+    .contact_social {
+        width: 72%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero__header {
+        width: 100%;
+    }
+
+    #hero_header-text {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    #hero_header-desc {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .form__wrapper {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    .contact_form-wrapper {
+        width: 100%;
+    }
+
+    .contact_social {
+        width: 100%;
+    }
+
+    #scoial {
+        font-size: 22px;
+        text-align: center;
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social-btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
